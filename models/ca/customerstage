@@ -1,0 +1,8 @@
+{{config(materialized='table')}}
+
+SELECT
+  *
+FROM
+  CUSTOMERACCTDEV.CASCH.CUSTOMERINFO
+LIMIT
+  10;
