@@ -1,0 +1,7 @@
+sources:
+  - name: carawsource
+    database: customeracctdev
+    schema: rawca
+    tables:
+      - name: custinfo
+        identifier: customerinfo

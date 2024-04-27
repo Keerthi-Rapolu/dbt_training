@@ -3,4 +3,4 @@
 SELECT
   *
 FROM
-  CUSTOMERACCTDEV.RAWCA.CUSTOMERINFO
+  {{source('carawsource','custinfo')}}
