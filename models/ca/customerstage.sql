@@ -3,4 +3,4 @@
 SELECT
   *
 FROM
-  {{source('carawsource','custinfo')}}
+  {{source('carawsource','custinfo')}} 
