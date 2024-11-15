@@ -4,80 +4,8 @@
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="1516e18e63f93b96-4" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="1140" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-5" value="Relation 8" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="1140" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-12" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=3;fillColor=#000000;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1415" y="1150" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-14" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="1090" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-15" value="Relation 7" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="1090" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-18" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="1040" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-19" value="Relation 6" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="1040" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-20" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="990" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-21" value="Relation 5" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="990" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-22" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="940" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-23" value="Relation 4" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="940" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-24" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="890" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-25" value="Relation 3" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="890" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-26" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="840" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-27" value="Relation 2" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="840" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-28" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="790" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-29" value="Relation 1" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="790" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-3" value="Title" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="1516e18e63f93b96-3" value="Comparison of Tools for Offloading SQL Server Data" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="300" y="70" width="780" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-6" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=3;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1415" y="800" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-7" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=3;fontSize=14;fillColor=#000000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1415" y="850" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-8" value="" style="triangle;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=3;fillColor=#000000;fontSize=14;direction=north;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1415" y="950" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-9" value="" style="triangle;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=3;fontSize=14;direction=north;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1415" y="900" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-10" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=3;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1415" y="1000" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-11" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=3;fillColor=#000000;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1415" y="1050" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1516e18e63f93b96-13" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=3;fontSize=14;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="1415" y="1100" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jeh_nIhjsLaDO_0bEj_C-45" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="110" y="280" width="1220" height="770" as="geometry" />
