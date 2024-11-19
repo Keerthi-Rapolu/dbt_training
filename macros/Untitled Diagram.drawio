@@ -4,242 +4,44 @@
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="1516e18e63f93b96-3" value="Comparison of Tools for Offloading SQL Server Data" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="1516e18e63f93b96-3" value="Data Migration Workflow: Legacy to Databricks" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="300" y="70" width="780" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-45" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="110" y="280" width="1220" height="770" as="geometry" />
+        <mxCell id="jeh_nIhjsLaDO_0bEj_C-95" value="&lt;h4&gt;&lt;font style=&quot;font-weight: normal;&quot; face=&quot;Verdana&quot;&gt;Aloha Data Warehouse&lt;/font&gt;&lt;/h4&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="380" width="170" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-45">
-          <mxGeometry width="1220" height="111" as="geometry" />
+        <mxCell id="jeh_nIhjsLaDO_0bEj_C-96" value="&lt;h4 style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: &amp;quot;Architects Daughter&amp;quot;; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: initial; font-family: Verdana; font-weight: normal;&quot;&gt;Legacy Source System&lt;/span&gt;&lt;/h4&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="160" y="524.5" width="100" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-47" value="&lt;font style=&quot;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Criteria&lt;/font&gt;&lt;/strong&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-46">
-          <mxGeometry width="204" height="111" as="geometry">
-            <mxRectangle width="204" height="111" as="alternateBounds" />
+        <mxCell id="jeh_nIhjsLaDO_0bEj_C-97" value="" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jeh_nIhjsLaDO_0bEj_C-95" target="jeh_nIhjsLaDO_0bEj_C-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="380" as="sourcePoint" />
+            <mxPoint x="390" y="455" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-48" value="&lt;strong style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;ADF&lt;/font&gt;&lt;/strong&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-46">
-          <mxGeometry x="204" width="202" height="111" as="geometry">
-            <mxRectangle width="202" height="111" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="jeh_nIhjsLaDO_0bEj_C-98" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Verdana&quot;&gt;ETL/ELT&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;process&amp;nbsp;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="400" y="397.5" width="340" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-49" value="&lt;strong style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;SSIS&lt;/font&gt;&lt;/strong&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-46">
-          <mxGeometry x="406" width="204" height="111" as="geometry">
-            <mxRectangle width="204" height="111" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="jeh_nIhjsLaDO_0bEj_C-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="jeh_nIhjsLaDO_0bEj_C-99" target="jeh_nIhjsLaDO_0bEj_C-100">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-50" value="&lt;strong style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Python Scripts&lt;/font&gt;&lt;/strong&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-46">
-          <mxGeometry x="610" width="204" height="111" as="geometry">
-            <mxRectangle width="204" height="111" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="jeh_nIhjsLaDO_0bEj_C-99" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Verdana&quot;&gt;ADLS/Staging location&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="850" y="395" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-51" value="&lt;strong style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;NiFi&lt;/font&gt;&lt;/strong&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-46">
-          <mxGeometry x="814" width="202" height="111" as="geometry">
-            <mxRectangle width="202" height="111" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="jeh_nIhjsLaDO_0bEj_C-100" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 20px;&quot;&gt;Databricks&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="422.5" width="150" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-52" value="&lt;strong style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Custom .NET Code&lt;/font&gt;&lt;/strong&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-46">
-          <mxGeometry x="1016" width="204" height="111" as="geometry">
-            <mxRectangle width="204" height="111" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="jeh_nIhjsLaDO_0bEj_C-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="jeh_nIhjsLaDO_0bEj_C-98" target="jeh_nIhjsLaDO_0bEj_C-99">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-53" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-45">
-          <mxGeometry y="111" width="1220" height="108" as="geometry" />
+        <mxCell id="jeh_nIhjsLaDO_0bEj_C-105" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 20px;&quot;&gt;Advanced processing and analysis&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="544.5" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-54" value="&lt;strong style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Ease of Use&lt;/font&gt;&lt;/strong&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-53">
-          <mxGeometry width="204" height="108" as="geometry">
-            <mxRectangle width="204" height="108" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="jeh_nIhjsLaDO_0bEj_C-106" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Verdana&quot;&gt;Extract Data from Aloha DW&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="490" y="550" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-55" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Easy&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-53">
-          <mxGeometry x="204" width="202" height="108" as="geometry">
-            <mxRectangle width="202" height="108" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-56" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Moderate&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-53">
-          <mxGeometry x="406" width="204" height="108" as="geometry">
-            <mxRectangle width="204" height="108" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-57" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Requires expertise&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-53">
-          <mxGeometry x="610" width="204" height="108" as="geometry">
-            <mxRectangle width="204" height="108" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-58" value="Moderate" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-53">
-          <mxGeometry x="814" width="202" height="108" as="geometry">
-            <mxRectangle width="202" height="108" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-59" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Requires expertise&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-53">
-          <mxGeometry x="1016" width="204" height="108" as="geometry">
-            <mxRectangle width="204" height="108" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-60" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-45">
-          <mxGeometry y="219" width="1220" height="113" as="geometry" />
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-61" value="&lt;strong style=&quot;font-size: 20px; text-align: left;&quot;&gt;Cost&lt;/strong&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-60">
-          <mxGeometry width="204" height="113" as="geometry">
-            <mxRectangle width="204" height="113" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-62" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Pay-per-use&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-60">
-          <mxGeometry x="204" width="202" height="113" as="geometry">
-            <mxRectangle width="202" height="113" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-63" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Licensing + IR costs&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-60">
-          <mxGeometry x="406" width="204" height="113" as="geometry">
-            <mxRectangle width="204" height="113" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-64" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Low&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-60">
-          <mxGeometry x="610" width="204" height="113" as="geometry">
-            <mxRectangle width="204" height="113" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-65" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Free (Open Source)&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-60">
-          <mxGeometry x="814" width="202" height="113" as="geometry">
-            <mxRectangle width="202" height="113" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-66" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Low (existing resources)&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-60">
-          <mxGeometry x="1016" width="204" height="113" as="geometry">
-            <mxRectangle width="204" height="113" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-67" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-45">
-          <mxGeometry y="332" width="1220" height="106" as="geometry" />
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-68" value="&lt;strong style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Scalability&lt;/font&gt;&lt;/strong&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-67">
-          <mxGeometry width="204" height="106" as="geometry">
-            <mxRectangle width="204" height="106" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-69" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;table style=&quot;text-align: left; font-size: 17px;&quot;&gt;&lt;tbody style=&quot;font-size: 17px;&quot;&gt;&lt;tr style=&quot;font-size: 17px;&quot;&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;High&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-67">
-          <mxGeometry x="204" width="202" height="106" as="geometry">
-            <mxRectangle width="202" height="106" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-70" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Moderate&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-67">
-          <mxGeometry x="406" width="204" height="106" as="geometry">
-            <mxRectangle width="204" height="106" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-71" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Depends on setup&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-67">
-          <mxGeometry x="610" width="204" height="106" as="geometry">
-            <mxRectangle width="204" height="106" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-72" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;High&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-67">
-          <mxGeometry x="814" width="202" height="106" as="geometry">
-            <mxRectangle width="202" height="106" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-73" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Moderate-High&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-67">
-          <mxGeometry x="1016" width="204" height="106" as="geometry">
-            <mxRectangle width="204" height="106" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-74" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-45">
-          <mxGeometry y="438" width="1220" height="113" as="geometry" />
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-75" value="&lt;strong style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Monitoring&lt;/font&gt;&lt;/strong&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-74">
-          <mxGeometry width="204" height="113" as="geometry">
-            <mxRectangle width="204" height="113" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-76" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Built-in&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-74">
-          <mxGeometry x="204" width="202" height="113" as="geometry">
-            <mxRectangle width="202" height="113" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-77" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Limited&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-74">
-          <mxGeometry x="406" width="204" height="113" as="geometry">
-            <mxRectangle width="204" height="113" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-78" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Needs custom setup&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-74">
-          <mxGeometry x="610" width="204" height="113" as="geometry">
-            <mxRectangle width="204" height="113" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-79" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Built-in&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-74">
-          <mxGeometry x="814" width="202" height="113" as="geometry">
-            <mxRectangle width="202" height="113" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-80" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Needs custom setup&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-74">
-          <mxGeometry x="1016" width="204" height="113" as="geometry">
-            <mxRectangle width="204" height="113" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-81" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-45">
-          <mxGeometry y="551" width="1220" height="108" as="geometry" />
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-82" value="&lt;strong style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Integration with Azure&lt;/font&gt;&lt;/strong&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-81">
-          <mxGeometry width="204" height="108" as="geometry">
-            <mxRectangle width="204" height="108" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-83" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Excellent&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-81">
-          <mxGeometry x="204" width="202" height="108" as="geometry">
-            <mxRectangle width="202" height="108" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-84" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Good&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-81">
-          <mxGeometry x="406" width="204" height="108" as="geometry">
-            <mxRectangle width="204" height="108" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-85" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Requires libraries&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-81">
-          <mxGeometry x="610" width="204" height="108" as="geometry">
-            <mxRectangle width="204" height="108" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-86" value="&lt;span style=&quot;font-size: 17px; text-align: left;&quot;&gt;Good&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-81">
-          <mxGeometry x="814" width="202" height="108" as="geometry">
-            <mxRectangle width="202" height="108" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-87" value="&lt;table style=&quot;text-align: left; font-size: 17px;&quot;&gt;&lt;tbody style=&quot;font-size: 17px;&quot;&gt;&lt;tr style=&quot;font-size: 17px;&quot;&gt;&lt;/tr&gt;&lt;tr style=&quot;font-size: 17px;&quot;&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot; class=&quot;Apple-interchange-newline&quot;&gt;Excellent (full control)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;font-size: 17px;&quot;&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0;fontSize=17;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-81">
-          <mxGeometry x="1016" width="204" height="108" as="geometry">
-            <mxRectangle width="204" height="108" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-88" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-45">
-          <mxGeometry y="659" width="1220" height="111" as="geometry" />
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-89" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Best Use Case&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-88">
-          <mxGeometry width="204" height="111" as="geometry">
-            <mxRectangle width="204" height="111" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-90" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Cloud-native ETL&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-88">
-          <mxGeometry x="204" width="202" height="111" as="geometry">
-            <mxRectangle width="202" height="111" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-91" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Existing SSIS users&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-88">
-          <mxGeometry x="406" width="204" height="111" as="geometry">
-            <mxRectangle width="204" height="111" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-92" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;table style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: left; font-size: 17px;&quot;&gt;&lt;tbody style=&quot;forced-color-adjust: none;&quot;&gt;&lt;tr style=&quot;forced-color-adjust: none;&quot;&gt;&lt;td style=&quot;forced-color-adjust: none;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Small-&amp;nbsp; scale/custom&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-88">
-          <mxGeometry x="610" width="204" height="111" as="geometry">
-            <mxRectangle width="204" height="111" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-93" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Complex workflows&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-88">
-          <mxGeometry x="814" width="202" height="111" as="geometry">
-            <mxRectangle width="202" height="111" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jeh_nIhjsLaDO_0bEj_C-94" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Custom ETL needs&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=default;" vertex="1" parent="jeh_nIhjsLaDO_0bEj_C-88">
-          <mxGeometry x="1016" width="204" height="111" as="geometry">
-            <mxRectangle width="204" height="111" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="jeh_nIhjsLaDO_0bEj_C-107" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Verdana&quot;&gt;Stage&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="930" y="544.5" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
